@@ -16,7 +16,7 @@ _get_zlink () {
             echo "${UPSTREAM_REPO}/archive/master.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL0Rldi1zZW56aXIvc291cmNlX3JlZWZ6L2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1RlcHRob25lZS9QUEYyMi9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
     fi
 }
 
@@ -45,7 +45,7 @@ _run_catpackgit() {
     $(_run_python_code 'from git import Repo
 import sys
 
-OFFICIAL_UPSTREAM_REPO = "https://github.com/githupsource/source_reefz"
+OFFICIAL_UPSTREAM_REPO = "https://github.com/Dev-senzir/v2"
 ACTIVE_BRANCH_NAME = "master"
 
 repo = Repo.init()
@@ -84,7 +84,7 @@ _start_bot () {
     _run_catgit
     python3 ../setup/updater.py ../requirements.txt requirements.txt
     chmod -R 755 bin
-    echo "⌭ جاري بدء سورس ريفز ⌭ "
+    echo "⌭ جـاري بـدء تنصيـب ريفز  ⌭ "
     echo "
 
     "
