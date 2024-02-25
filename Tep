@@ -26,12 +26,12 @@ _get_repolink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $UPSTREAM_REPO == "Dev-senzir" ]]
     then
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL1RlcHRob25lZS9QUEYyMg==" | base64 -d`
+        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0Rldi1zZW56aXIvc291cmNlX3JlZWZ6" | base64 -d`
     elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
         rlink=`echo "${UPSTREAM_REPO}"`
     else
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL1RlcHRob25lZS9QUEYyMg==" | base64 -d`
+        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0Rldi1zZW56aXIvc291cmNlX3JlZWZ6" | base64 -d`
     fi
     echo "$rlink"
 }
@@ -45,7 +45,7 @@ _run_catpackgit() {
     $(_run_python_code 'from git import Repo
 import sys
 
-OFFICIAL_UPSTREAM_REPO = "https://github.com/Dev-senzir/v2"
+OFFICIAL_UPSTREAM_REPO = "https://github.com/Dev-senzir/source_reefz"
 ACTIVE_BRANCH_NAME = "master"
 
 repo = Repo.init()
