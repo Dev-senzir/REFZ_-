@@ -53,7 +53,6 @@
       "description": "المنطقـــه الزمنيـــه لا تغيــرهـــا",
       "value": "Asia/Baghdad",
       "required": false
-    },
     }
     },
   "addons": [{
