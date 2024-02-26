@@ -16,12 +16,12 @@
       "value": ""
     },
     "APP_ID": {
-      "description": "كـود ايبي ايـدي〔 App id 〕الصغيـر", 
-      "value": ""
+      "description": "كـود ايبي ايـدي اتركه كما هو〔 App id 〕الصغيـر", 
+      "value": "27477919"
     },
     "API_HASH": {
-      "description": "كـود ايبي هـاش〔 Api hash 〕..",
-      "value": ""
+      "description": "كـود ايبي هـاش اتركه كما هو〔 Api hash 〕..",
+      "value": "b25cce1727f6d33d41d9e00e3ed62583"
     },
     "ENV": {
       "description": "لا تغيــرهـــا",
