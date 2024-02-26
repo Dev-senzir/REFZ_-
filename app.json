@@ -7,7 +7,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Dev-senzir/REFZ_-",
+  "repository": "https://github.com/jcjxjdjdds/source_reefz",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -52,6 +52,11 @@
     "TZ": {
       "description": "المنطقـــه الزمنيـــه لا تغيــرهـــا",
       "value": "Asia/Baghdad",
+      "required": false
+    },
+    "UPSTREAM_REPO": {
+      "description": "لاتغيره ابداً",
+      "value": "https://github.com/githupsource/source_reefz",
       "required": false
     }
     },
