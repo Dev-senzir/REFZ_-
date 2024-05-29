@@ -10,6 +10,6 @@ Fork Deploy is highly recommended
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-## credits
+## Source
 <a href="https://t.me/def_Zoka"><img src="https://i.ibb.co/7WyvBvM/IMG-20240503-081403.jpg" alt="IMG-20240503-081403" border="0"></a>)
 
